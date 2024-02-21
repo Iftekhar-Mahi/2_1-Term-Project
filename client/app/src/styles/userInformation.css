@@ -1,0 +1,44 @@
+/* UserInformation.css */
+
+.buttonLogOut {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-left: 85px; /* Add margin-left to move it 5px to the right */
+}
+
+.buttonLogOut:hover {
+  background-color: #45a049;
+}
+
+.user-info-container {
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px; /* Increase width */
+    background-color: #f0f0f0; /* Light gray background */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+  }
+  
+  .user-info-container:hover {
+    transform: translateX(-10px); /* Shift box to the left on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+  }
+  
+  .user-info-container p {
+    margin: 10px 0; /* Increase margin */
+  }
+  
+  .user-info-container strong {
+    color: #4CAF50; /* Green color for strong elements */
+  }
+  
+  .user-info-container strong:hover {
+    text-shadow: 0 0 5px #4CAF50; /* Add glow effect on hover */
+  }
+  
